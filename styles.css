@@ -1,0 +1,48 @@
+/* * {
+    border: 2px solid blue;
+} */
+
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-color:antiquewhite;
+}
+
+p {
+    text-align: center;
+    width: 75%;
+    margin: 5px auto;
+    font-size: 24px;
+}
+
+p.ref {
+    text-align: center;
+    font-size: 1.5em;
+    color: brown;
+    font-style: italic;
+}
+
+p.quote {
+    font-size: 1.35em;
+}
+
+div {
+    margin: 15px auto;
+    width: 60%;
+    font-size: 1.2em;
+}
+
+div.end {
+    text-align: center;
+    font-size: 0.8em;
+}
+
+img {
+    width: 20%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
