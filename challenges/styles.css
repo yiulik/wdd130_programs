@@ -1,0 +1,23 @@
+.head {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    background-color: gray;
+}
+
+.below {
+    border-radius: 50%;
+    margin: 50px 100px;
+    border: 10px solid rgb(70, 60, 60);
+    display: inline;
+    width: 15%;
+    
+}
+
+div {
+    text-align: center;
+}
