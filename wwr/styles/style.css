@@ -234,6 +234,75 @@ section {
     margin: 30px;
 }
 
+
+/* Subpage CSS */
+.sub h1 {
+    margin-left: 50px;
+    color: #191677;
+}
+
+.sub p {
+    margin-left: 50px;
+    width: 1400px;
+}
+.sub_rivers1, .sub_rivers3 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 30px 50px 20px;
+}
+
+.sub_rivers2 {
+    display:grid;
+    grid-template-columns: auto auto;
+    margin: 30px 50px 20px;
+}
+
+.sub_rivers1 img, .sub_rivers3 img {
+    width: 500px;
+    height: 400px;
+    padding-right: 50px;
+    grid-column: 1/2;
+}
+
+.sub_rivers2 img {
+    width: 500px;
+    height: 400px;
+    padding-left: 50px;
+    grid-column: 2/3;
+}
+
+.sub_para1 {
+    font-size: 18px;
+    width: 800px;
+    grid-column: 2/3;
+}
+
+.sub_para2 {
+    font-size: 20px;
+    width: 800px;
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.sub_para3 {
+    font-size: 20px;
+    width: 800px;
+    grid-column: 2/3;
+}
+
+.heading1, .heading3 {
+    grid-column: 1/2;
+    font-family: "Fondamento", Helvetica, serif;
+    color: #db7815;
+}
+
+.heading2 {
+    grid-column: 2/3;
+    padding-left: 50px;
+    font-family: "Fondamento", Helvetica, serif;
+    color: #db7815;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
