@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Henny+Penny&family=Oxygen+Mono&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@1&family=Henny+Penny&family=Oxygen+Mono&family=Diphylleia&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Diphylleia&display=swap'); */
 #content {
     max-width: 1600px; 
     margin: 0 auto;
@@ -239,11 +239,15 @@ section {
 .sub h1 {
     margin-left: 50px;
     color: #191677;
+    text-align: center;
+    font-family: "Henny Penny", Arial, Helvetica;
 }
 
 .sub p {
     margin-left: 50px;
     width: 1400px;
+    text-align: center;
+    color: #d83976;
 }
 .sub_rivers1, .sub_rivers3 {
     display: grid;
@@ -275,19 +279,22 @@ section {
     font-size: 18px;
     width: 800px;
     grid-column: 2/3;
+    font-family: "Diphylleia", Arial, sans-serif;
 }
 
 .sub_para2 {
-    font-size: 20px;
+    font-size: 21px;
     width: 800px;
     grid-column: 1/2;
     grid-row: 2/3;
+    font-family: "Diphylleia", Arial, sans-serif;
 }
 
 .sub_para3 {
-    font-size: 20px;
+    font-size: 21px;
     width: 800px;
     grid-column: 2/3;
+    font-family: "Diphylleia", Arial, sans-serif;
 }
 
 .heading1, .heading3 {
