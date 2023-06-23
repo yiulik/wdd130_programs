@@ -171,66 +171,6 @@ footer a:hover {
     padding-bottom: 25px;
 }
 
-/* .char1-img {
-    grid-column: 1/3;
-    margin-left: 150px;
-    margin-bottom: 50px;
-}
-
-.char1p {
-    grid-column: 3/5;
-    text-align: left;
-    margin: 0;
-}
-
-.char2-img {
-    grid-column: 1/3;
-    margin-left: 150px;
-    margin-bottom: 50px;
-}
-
-.char2p {
-    grid-column: 3/5;
-    text-align: left;
-    margin: 0;
-}
-
-.char3-img {
-    grid-column: 1/3;
-    margin-left: 150px;
-    margin-bottom: 50px;
-}
-
-.char3p {
-    grid-column: 3/5;
-    text-align: left;
-    margin: 0;
-}
-
-.char4-img {
-    grid-column: 1/3;
-    margin-left: 150px;
-    margin-bottom: 50px;
-}
-
-.char4p {
-    grid-column: 3/5;
-    text-align: left;
-    margin: 0;
-}
-
-.char5-img {
-    grid-column: 1/3;
-    margin-left: 150px;
-    margin-bottom: 50px;
-}
-
-.char5p {
-    grid-column: 3/5;
-    text-align: left;
-    margin: 0;
-} */
-
 .char-img {
     grid-column: 1/3;
     margin-left: 150px;
@@ -243,6 +183,76 @@ footer a:hover {
     margin: 0;
     line-height: 25px;
     margin-right: 100px;
-    font-size: 1.2em;
+    font-size: 1.4em;
     margin-left: -100px;
+}
+
+/* Arcs page */
+.main-grid3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.arcs-title {
+    color: white;
+    grid-column: 1/5;
+    text-align: left;
+    margin-left: 150px;
+    padding: 25px 0;
+    font-size: 2.2em;
+    font-family: "Courgette", sans-serif, Arial;
+}
+
+.intro3 {
+    font-size: 1.6em;
+    grid-column: 1/5;
+    text-align: center;
+    padding-bottom: 75px;
+    margin-top: -25px;
+}
+
+.order {
+    grid-column: 1/3;
+    width: 300px;
+    text-align: left;
+    padding-left: 150px;
+    font-size: 1.2em;
+    line-height: 30px;
+    margin: 0;
+    color: white;
+}
+
+.list {
+    text-align: left;
+    padding-left: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    grid-column: 1/3;
+    margin: 0;
+}
+
+.arc_img {
+    width: 600px;
+    height: 340px;
+    margin-left: -30px;
+    grid-column: 3/5;
+}
+
+.arc_title {
+    grid-column: 3/5;
+    margin: 0;
+    margin-left: -30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    align-self: center;
+}
+
+.arc_des {
+    grid-column: 3/5;
+    text-align: left;
+    margin: 0;
+    margin-left: -30px;
+    margin-bottom: 30px;
+    width: 600px
 }
