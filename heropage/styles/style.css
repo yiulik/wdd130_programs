@@ -70,6 +70,7 @@ main {
     color: white;
     margin: 0 auto;
     height: 150px;
+    color: #bbff9b;
 }
 
 main h2 {
@@ -120,13 +121,20 @@ main p {
 .greatest {
     grid-row: 13/14;
     grid-column: 1/5;
+    background-color: #bbff9b;
+}
+
+.greatest-img {
+    margin-top: 50px;
 }
 
 .conclusion {
     grid-row: 15/16;
     grid-column: 1/5;
-    margin-top: 100px;
+    margin-top: 75px;
+    margin-bottom: 75px;
     font-size: 2.0em;
+    color: red;
 }
 
 footer {
@@ -154,7 +162,7 @@ footer a:hover {
 }
 
 .mc-title {
-    color: white;
+    color: #bbff9b;
     grid-column: 1/5;
     text-align: left;
     margin-left: 150px;
@@ -193,7 +201,7 @@ footer a:hover {
 }
 
 .arcs-title {
-    color: white;
+    color: #bbff9b;
     grid-column: 1/5;
     text-align: left;
     margin-left: 150px;
