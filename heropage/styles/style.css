@@ -176,6 +176,7 @@ footer a:hover {
     grid-column: 1/5;
     text-align: center;
     padding-bottom: 25px;
+    color: #bbff9b;
 }
 
 .char-img {
@@ -216,6 +217,7 @@ footer a:hover {
     text-align: center;
     padding-bottom: 75px;
     margin-top: -25px;
+    color: #bbff9b;
 }
 
 .order {
