@@ -200,9 +200,19 @@ footer a:hover {
 }
 
 /* Arcs page */
+#arc_header {
+    background-color: #eaee2f;
+    display: grid;
+    grid-template-columns: 150px auto;
+    position: static;
+    width: 100%;
+    /* top: 0; */
+}
+
 .main-grid3 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 0;
 }
 
 .arcs-title {
@@ -233,6 +243,10 @@ footer a:hover {
     line-height: 30px;
     margin: 0;
     color: white;
+}
+
+.order a {
+    color: #bbff9b;
 }
 
 .list {
